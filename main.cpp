@@ -52,6 +52,10 @@ int main()
     std::cout << "Ширина изображения (пиксели): " << buf_i.biWidth << std::endl;
     std::cout << "Размер изображения (в байтах) : " << buf_i.biSizeImage << std::endl;
     std::cout << "Количество свободных байтов для информации : " << bytes_free<< std::endl;
+
+    if ( imgf->is_8bit==1 ) {std::cout << " Файл восьмибитный! \n" ;} else {
+    std::cout << " Файл НЕ восьмибитный! Действуйте на свой страх и риск! \n" ;}
+
     std::cout << std::setfill('*') << std::setw(78) << "*" << std::ends << std::endl;
 
 
