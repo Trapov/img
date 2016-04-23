@@ -102,7 +102,7 @@ int main()
         }
         case 2 : {
 
-            // —читывание информации о пиксел€х в массив
+            // —читывание информации о пиксел€х в массив.
             imgf->read_bimg(array_of_pixels, buf_f.bfOffBits, buf_i.biWidth, buf_i.biHeight);
 
             std::cout << "¬ведите ваш текст : " << std::endl;
